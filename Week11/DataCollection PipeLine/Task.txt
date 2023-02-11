@@ -1,0 +1,23 @@
+Problem Statement:
+
+XYZ company is collecting the data customer using google forms/survey monkey and they have floated n number of forms on the web.
+
+Company wants to create a pipeline which will collect all the data of these google forms/survey monkey and visualize the data in the dashboard.
+
+Company wants clean data and if there is any data issue present in the data then it should be treated by this pipeline ( duplicate data or junk data). dedup check should be performed on the email id of the customer
+
+Task:
+
+1. Perform data acquisition using more than 2 google forms/Survey monkey.
+
+2. Collect all the forms data into a master form using script.
+
+3. Clean the data and perform dedup check
+
+4. Visualize the data into dashboard.
+
+Visualization can be based on number of positive responses received location-wise or countrywide
+
+5. Create a batch which will run at specific time and dump the data into master file ( or data lake)
+
+5. Document the challenges encountered during this implementation.
