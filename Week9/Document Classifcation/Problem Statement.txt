@@ -1,0 +1,60 @@
+https://archive.ics.uci.edu/ml/datasets/Twenty+Newsgroups
+
+http://qwone.com/~jason/20Newsgroups/lang95.bib
+
+
+Problem Statement
+
+Document/Text classification is one of the important and typical tasks in supervised machine learning (ML). Assigning classes to documents, which can be a web page, library book, media articles, gallery, etc. has many applications like e.g. spam filtering, email routing, sentiment analysis, etc. In this problem, We would like to demonstrate how we can do text classification.
+
+20 Newsgroup Dataset
+
+The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. To the best of my knowledge, it was originally collected by Ken Lang, probably for his Newsweeder: Learning to filter netnews (Links to an external site.) paper, though he does not explicitly mention this collection. The 20 newsgroups collection has become a popular data set for experiments in text applications of machine learning techniques, such as text classification and text clustering.
+
+In this dataset, duplicate messages have been removed and the original messages only contain "From" and "Subject" headers (18828 messages total).
+
+Each new message in the bundled file begins with these four headers:
+
+Newsgroup: alt.newsgroup
+
+Document_id: xxxxxx
+
+From: Cat
+
+Subject: Meow Meow Meow
+
+The Newsgroup and Document_id can be referenced against list.csv
+
+Organization
+
+Each newsgroup file in the bundle represents a single newsgroup
+Each message in a file is the text of some newsgroup document that was posted to that newsgroup.
+This is a list of the 20 newsgroups:
+
+comp.graphics
+comp.os.ms-windows.misc
+comp.sys.ibm.pc.hardware
+comp.sys.mac.hardware
+comp.windows.x rec.autos
+rec.motorcycles
+rec.sport.baseball
+rec.sport.hockey sci.crypt
+sci.electronics
+sci.med
+sci.space
+misc.forsale talk.politics.misc
+talk.politics.guns
+talk.politics.mideast talk.religion.misc
+alt.atheism
+soc.religion.christian
+ 
+
+Task
+
+Problem Understanding
+EDA of Dataset
+Data Preprocessing
+Model Building & Training
+Performance Evaluation & Reporting
+Model Deployment
+Model Inference
