@@ -1,0 +1,20 @@
+Task
+
+Problem Understanding
+Data Annotation
+Named Entity Recognition(NER)
+Model Building & Training
+Performance Evaluation & Reporting
+Model Deployment
+Model Inference
+ 
+
+Dataset Attributes
+
+{
+
+'content' : resume content or free text
+
+'label' : Annotated Tagged Entities
+
+ }
